@@ -1,0 +1,91 @@
+/* The styles for the elements */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+h1 {
+    font-size: 600%;
+    color: rgb(70, 0, 128);
+    margin-bottom: .5em;
+}
+h2 {
+    font-size: 200%;
+    color: greenyellow;
+    margin-bottom: .5em;
+}
+
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    padding-top: .3em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="date"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
+/* The styles for a table */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+
+input[type="submit"]{
+    width: 10em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    background-color: #1a1e21;
+    color: white;
+    transition: background-color ease-in-out 0.5s;
+}
+input[type="submit"]:hover{
+    background-color: #0dcaf0;
+    color: black;
+    cursor: pointer;
+}
+.form_survey {
+    width: 50%;
+    background-color: antiquewhite;
+    padding: 5em;
+    margin: auto;
+}
+.main {
+    height: 100vh;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

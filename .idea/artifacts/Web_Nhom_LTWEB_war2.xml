@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Web-Nhom-LTWEB:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/Web_Nhom_LTWEB_war2</output-path>
+    <root id="archive" name="Web-Nhom-LTWEB_war.war">
+      <element id="artifact" artifact-name="Web-Nhom-LTWEB:war exploded" />
+    </root>
+  </artifact>
+</component>

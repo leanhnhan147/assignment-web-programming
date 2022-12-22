@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/group19" auth="Container"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://remotemysql.com:3306/oS3QzoMSgJ?useUnicode=true&amp;createDatabaseIfNotExist=true&amp;characterEncoding=utf-8&amp;autoReconnect=true"
+              username="oS3QzoMSgJ" password="9yKb1asNch"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              logAbandoned="true" removeAbandoned="true"
+              removeAbandonedTimeout="60" type="javax.sql.DataSource" >
+    </Resource>
+</Context>

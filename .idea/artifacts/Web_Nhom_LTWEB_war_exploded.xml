@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Web-Nhom-LTWEB:war exploded">
+    <output-path>$PROJECT_DIR$/target/Assignment</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Web-Nhom-LTWEB</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Web-Nhom-LTWEB" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.webjars:bootstrap:5.2.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:eclipselink:2.5.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:javax.persistence:2.1.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:commonj.sdo:2.1.1" />
+          <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Assignment/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Web-Nhom-LTWEB/web/Web" />
+    </root>
+  </artifact>
+</component>
